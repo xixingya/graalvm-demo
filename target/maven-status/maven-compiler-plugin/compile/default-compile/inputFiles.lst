@@ -1,0 +1,15 @@
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/resource/ResourceFeature.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/targetclass/TargetClassTest.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/dynamic/Select.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/dynamic/JdkProxyTest.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/targetclass/MyTargetServiceSubstitute.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/dynamic/ProxyFeature.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/targetclass/MyTargetService.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/feature/MyFeature.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/dynamic/UserMapper.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/feature/pojo/Student.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/SimpleDemo.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/dynamic/CustomInvocationHandler.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/feature/FeatureDemo.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/resource/ResourceDemo.java
+/Users/liuzhifei/workspace/sourcecode/my/graalvm-demo/src/main/java/tech/xixing/demo/graalvm/feature/pojo/Student2.java
