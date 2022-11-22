@@ -17,15 +17,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.graalvm.sdk</groupId>
-            <artifactId>graal-sdk</artifactId>
-            <version>${graalvm.version}</version>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-launcher</artifactId>
+            <version>1.8.2</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graalvm.nativeimage</groupId>
@@ -97,7 +98,7 @@
                 <configuration>
                     <skip>false</skip>
                     <imageName>graalvm-demo</imageName>
-                    <mainClass>tech.xixing.demo.graalvm.resource.ResourceDemo</mainClass>
+                    <mainClass>tech.xixing.demo.graalvm.targetclass.TargetClassTest</mainClass>
                     <buildArgs>
                         <buildArg>--no-fallback --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk=ALL-UNNAMED --add-exports=org.graalvm.nativeimage.builder/com.oracle.svm.core.jdk.proxy=ALL-UNNAMED</buildArg>
                     </buildArgs>

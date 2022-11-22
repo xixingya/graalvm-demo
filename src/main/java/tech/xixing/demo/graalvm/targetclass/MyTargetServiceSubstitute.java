@@ -4,7 +4,9 @@ import com.oracle.svm.core.annotate.Alias;
 import com.oracle.svm.core.annotate.Substitute;
 import com.oracle.svm.core.annotate.TargetClass;
 import com.oracle.svm.core.annotate.TargetElement;
+import com.oracle.svm.core.jdk.JDK11OrEarlier;
 import com.oracle.svm.core.jdk.JDK11OrLater;
+import com.oracle.svm.core.jdk.JDK17OrLater;
 import com.oracle.svm.core.jdk.JDK8OrEarlier;
 import tech.xixing.demo.graalvm.feature.pojo.Student;
 
@@ -20,10 +22,10 @@ final class MyTargetServiceSubstitute {
     private Student student;
 
     /**
-     * 只在jdk11以后才替换方法
+     * 只在jdk11或者之前才替换方法
      */
     @Substitute
-    @TargetElement(onlyWith = JDK11OrLater.class)
+    @TargetElement(onlyWith = JDK11OrEarlier.class)
     @SuppressWarnings("unused")
     public void executeService(){
         System.out.println("MyTargetServiceSubstitute executeService execute");
@@ -31,11 +33,11 @@ final class MyTargetServiceSubstitute {
     }
 
     /**
-     * 只在jdk8或者之前才替换方法
+     * 只在jdk17或者之后才替换方法
      * @param name
      */
     @Substitute
-    @TargetElement(onlyWith = JDK8OrEarlier.class)
+    @TargetElement(onlyWith = JDK17OrLater.class)
     @SuppressWarnings("unused")
     public void executeService2(String name){
         System.out.println("MyTargetServiceSubstitute executeService2 execute");
